@@ -1,0 +1,204 @@
+/*=============== heading style =============*/
+@mixin heading-style($f-size,$f-weight,$line-height){
+	font-size: $f-size;
+	font-family: $primary-font;
+	font-weight: $f-weight;
+	color: $heading-color;
+	line-height: $line-height;
+	transition: all .3s;
+	a{
+		color: inherit;
+		font-size: inherit;
+		line-height: inherit;
+		font-family: inherit;
+		&:hover{
+			color: inherit;
+		}
+	}
+}
+/*=============== Text style =============*/
+@mixin text-style($f-size){
+	font-size: $f-size;
+	font-family: $secondary-font;
+	font-weight: 400;
+	line-height: 34px;
+	color: $paragraph-color;
+	text-transform:initial;
+}
+/*=============== Button style =============*/
+@mixin btn-style($bg-clr,$color,$bdr-clr,$h-bg-clr,$h-color,$h-bdr-clr){
+	display: inline-block;
+    font-family: $primary-font;
+	text-transform: uppercase;
+    color: $color;
+    font-size: 18px;
+	font-weight: 500;
+    background: $bg-clr;
+    border: 2px solid $bdr-clr;
+    border-radius: $border-radius;
+    padding: 15px 45px;
+	letter-spacing: .05em;
+    transition: all .3s;
+	background: {
+		image: linear-gradient(45deg,$h-bg-clr 50%, transparent 50%);
+		position: 100%;
+		size: 400%;
+	  }
+	  transition: background 400ms ease-in-out;
+    &:hover{
+        color: $h-color;
+		border-color: $h-bdr-clr;
+		box-shadow: $btn-shadow;
+		background-position: 0;
+    }
+}
+
+/*=============== Social list style =============*/
+@mixin social-list($size,$color,$h-color,$margin) {
+	li{
+		display: inline-block;
+		a{
+			font-size: $size;
+			color: $color;
+			margin: 0px $margin;
+			transition: all .3s;
+			&:hover{
+				color: $h-color;
+			}
+		}
+		&:first-of-type{
+			a{
+				margin-left: 0;
+			}
+		}
+		&:last-of-type{
+			a{
+				margin-right: 0;
+			}
+		}
+	}
+}
+/*=============== List style =============*/
+@mixin list-style($f-size,$color,$margin){
+	li{
+		list-style: none;
+		font-size: $f-size;
+		margin-bottom: $margin;
+		color: $color;
+		font-weight: 400;
+		font-family: $secondary-font;
+        &:last-of-type{
+            margin-bottom: 0;
+        }
+		a{
+			color: inherit;
+			font-size: inherit;
+			font-weight: inherit;
+		}
+	}
+}
+@mixin list-style-one($f-size,$color,$margin){
+	li{
+		list-style: none;
+		font-size: $f-size;
+		margin-bottom: $margin;
+		position: relative;
+		padding-left: 25px;
+		color: $color;
+		font-family: $secondary-font;
+        &:last-of-type{
+            margin-bottom: 0;
+        }
+		&:before{
+			content: '\f00c';
+            font-family: 'font awesome 5 free';
+            font-weight: 700;
+			position: absolute;
+			left: 0;
+			color: $primary-color;
+		}
+		a{
+			color: inherit;
+			font-size: inherit;
+			font-weight: inherit;
+		}
+	}
+}
+@mixin list-style-two($f-size,$color,$margin){
+	li{
+		list-style: none;
+		font-size: $f-size;
+		margin-bottom: $margin;
+		position: relative;
+		padding-left: 33px;
+		color: $color;
+		font-family: $secondary-font;
+        &:last-of-type{
+            margin-bottom: 0;
+        }
+		&:before{
+			content: '\f00c';
+            font-family: 'font awesome 5 free';
+            font-weight: 700;
+			position: absolute;
+			left: 0px;
+			color: $primary-color;
+			width: 22px;
+			height: 22px;
+			background-color: rgba($primary-color, .1);
+			border-radius: 20px;
+			font-size: calc(#{$f-size} - 3px);
+			text-align: center;
+			line-height: 23px;
+		}
+		a{
+			color: inherit;
+			font-size: inherit;
+			font-weight: inherit;
+		}
+	}
+}
+@mixin list-style-three($f-size,$color,$margin){
+	li{
+		list-style: none;
+		font-size: $f-size;
+		margin-bottom: $margin;
+		position: relative;
+		padding-left: 20px;
+		color: $color;
+		font-family: $secondary-font;
+        &:last-of-type{
+            margin-bottom: 0;
+        }
+		&:before{
+			content: '';
+			position: absolute;
+			left: 0px;
+			top: 6px;
+			color: $primary-color;
+			width: 9px;
+			height: 9px;
+			border-radius: 20px;
+			background-color: $primary-color;
+		}
+		a{
+			color: inherit;
+			font-size: inherit;
+			font-weight: inherit;
+		}
+	}
+}
+
+/*=============== image frames =============*/
+@mixin img-adj($height){
+		width: 100%;
+		height: $height;
+		img{
+			width:100%;
+			height: 100%;
+			object-fit: cover;
+			object-position: top;
+		}
+}
+
+

@@ -1,0 +1,197 @@
+// ====================== Media Queries =======================
+
+@media screen and (min-width: 1200px) {
+    
+}
+@media screen and (max-width: 1400.98px) {
+    .number-wrapper{
+        margin-right: 20px;
+        padding-right: 20px;
+    }
+    .header .canvas-menu-icon a, .header .search-icon-wrapper a{
+        margin-left: 20px;
+    }
+}
+@media screen and (max-width: 1199.98px) {
+    .number-wrapper{
+        display: none;
+    }
+    .testimonials-slider .slick-prev {
+        left: -69%;
+    }
+    .testimonials-slider .slick-next {
+        left: -60%;
+    }
+    .client-slider {
+        margin: 0px -20px;
+    }
+    .client-wrapper {
+        padding: 0px 20px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 991.98px) {
+    
+    .navbar {
+        padding: 25px 25px;
+    }
+    .sticky-header .navbar {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .hero-sec h1{
+        font-size: 60px;
+    }
+	.team-wrapper h3{
+        font-size: 24px;
+    }
+    .hide-md{
+        display: none!important;
+    }
+    .show-md{
+        display: block!important;
+    }
+    .primary-btn,.primary-btn-outline{
+        padding: 10px 20px;
+    }
+    .price-wrapper .price-header {
+        padding: 25px;
+    }
+    .price-wrapper .price-header .price-value h3{
+        font-size: 44px;
+    }
+    .team-wrapper .team-avator {
+        height: 300px;
+    }
+    .off-canvas-menu .canvas-menu-inner{
+        padding: 30px 30px;
+    }
+    .header .canvas-menu-icon a{
+        font-size: 20px;
+    }
+    .video-wrapper .video-js {
+        width: 100%;
+        height: 460px;
+    }
+    .sidebar{
+        margin-top: 50px;
+    }
+    .side-widget{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .testimonials-slider .slick-prev {
+        left: -96%;
+    }
+    .testimonials-slider .slick-next {
+        left: -80%;
+    }
+    .feat-img-wrapper{
+        height: auto;
+        display: flex;
+        align-items: flex-end;
+        margin-bottom: 20px;
+    }
+    .feat-img-wrapper .img-wrapper{
+        position: relative;
+        width: 100%;
+    }
+    .feat-img-wrapper .vid-wrapper{
+        position: relative;
+        width: 100%;
+    }
+    .count-up:after{
+        display: none;
+    }
+    .counter-sec {
+        padding: 90px 0px;
+    }
+    .hero-item-wrapper {
+        height: 620px;
+    }
+    .cta-wrapper{
+        padding: 40px;
+    }
+    .cta-wrapper h2{
+        font-size: 42px;
+    }
+}
+@media screen and (max-width: 767.98px) {
+	.inner-banner .inner-baner-text h1{
+        font-size: 42px;
+    }
+    .inner-banner {
+        height: 170px;
+    }
+    .inner-banner .breadcrumb {
+        margin-top: 0.5rem;
+    }
+    .full-post .img-wrapper{
+        height: 350px;
+    }
+    .hero-text h1 span{
+        font-size: 90px;
+    }
+}
+@media screen and (max-width: 575.98px) {
+    .hero-item-wrapper {
+        height: 550px;
+    }
+    .hero-text h1 span{
+        font-size: 68px;
+    }
+    .hero-sec h1{
+        font-size: 34px;
+    }
+	.hero-sec p{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 38px;
+    }
+    .sec-ptb {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .sec-pt {
+        padding-top: 70px;
+    }
+    .sec-pb {
+        padding-bottom: 70px;
+    }
+    .off-canvas-menu .canvas-menu-inner{
+        width: 320px;
+        padding: 30px 20px;
+    }
+    .video-wrapper .video-js {
+        width: 100%;
+        height: 350px;
+    }
+    .full-post .img-wrapper{
+        height: 280px;
+    }
+    .account-img {
+        height: 170px;
+    }
+    .feat-img-wrapper{
+        flex-direction: column;
+    }
+    .feat-img-wrapper .img-wrapper{
+        margin-bottom: 15px;
+    }
+    .blog-wrapper .blog-content {
+        padding: 25px 15px;
+    }
+    .meta-date, .meta-cmnts{
+        font-size: 13px;
+    }
+    .client-slider {
+        margin: 0px 0px;
+    }
+    .feat-img-wrapper .img-wrapper{
+        height: 320px;
+    }
+}
+@media screen and (max-width: 320.98px) {
+	
+}

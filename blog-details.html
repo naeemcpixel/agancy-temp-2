@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Template 3</title>
+	  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href=".//assets/vendor/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href=".//assets/vendor/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href=".//assets/vendor/slick/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href=".//assets/vendor/animate/animate.css"/>
+    <link href=".//assets/vendor/videoplayer/video-js.min.css" rel="stylesheet"/>
+    <link href=".//assets/vendor/videoplayer/fantasy.css" rel="stylesheet"/>
+    <!--load all Font Awesome styles -->
+    <link href=".//assets/vendor/fontawesome/css/all.css" rel="stylesheet">
+    <!--Main CSS Style File-->
+    <link rel="stylesheet" type="text/css" href=".//css/main.css">
+    <!--google font cdn-->
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+<!--=================== Header =====================-->
+<header class="header">
+  <!-- Off-Canvas Menu -->
+  <div id="canvas-menu" class="off-canvas-menu background-dark canvas-navigation-right">
+    <div class="canvas-menu-inner">
+      <a id="canvas-close-toggle" class="canvas-menu-toggle active">
+          <i class="fa fa-times"></i>
+      </a>
+      <div class="canvas-menu-content">
+          <div class="canvas-logo-wrapper">
+            <img class="canvas-menu-logo" src=".//assets/images/white-logo.png" alt="slide_menu_logo">
+          </div><!--.canvas-text-->
+          <div class="canvas-content-wrapper">
+              <div class="canvas-text hide-md">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <div class="canvas-img-wrapper mt-5">
+                  <img class="img-fluid" src=".//assets/images/blog-1.jpg" alt="">
+                </div>
+              </div><!--.canvas-text-->
+              <!--=== Mobile Menu List ===-->
+              <div class="canvas-menu-list mt-lg-5 show-md">
+                <ul class="mobile-menu">
+                  <li><a href="index.html" >Home</a></li>
+                  <li><a href="about.html" >About Us</a></li>
+                  <li class="parent-item"><a href="#" >Services</a>
+                    <ul class="submenu">
+                      <li><a href="services.html">All Services</a></li>
+                      <li><a href="service-details.html">Service Details</a></li>
+                    </ul>
+                  </li>
+                  <li class="parent-item"><a href="#">Pages</a>
+                    <ul class="submenu">
+                      <li><a href="portfolio.html" >Portfolio</a></li>
+                      <li><a href="pricing.html" >Pricing</a></li>
+                      <li><a href="faq.html">FAQ's</a></li>
+                      <li><a href="sign-in.html" >Sign In</a></li>
+                      <li><a href="sign-up.html" >Sign Up</a></li>
+                    </ul>
+                  </li>
+                  <li class="parent-item"><a href="#blog" class="active">Blog</a>
+                    <ul class="submenu">
+                      <li><a href="blog-grid.html">Blog Grid</a></li>
+                      <li><a href="blog-grid-sidebar.html">Blog Grid Sidebar</a></li>
+                      <li><a href="blog-details.html" class="active">Blog Details</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+              </div><!--.canvas-menu-list-->
+              <ul class="contact-list mt-5">
+                <li>
+                <span class="icon"><i class="fa-solid fa-location-dot"></i></span>Los Angles, California, USA
+                </li>
+                <li>
+                <span class="icon"><i class="fa-solid fa-phone"></i></span>+1 (888) 143-4267
+                </li>
+                <li>
+                <span class="icon"><i class="fa-solid fa-envelope"></i></span>support@gumtheme.com
+                </li>
+              </ul><!--.contact-list-->
+          </div><!--.canvas-content-wrapper-->
+          <div class="social-list-wrapper style-one mt-5">
+              <ul class="social-list style-two">
+                  <li class="topbar-pinterest"><a class=" " href="#"><i class="fab fa-pinterest-p" aria-hidden="true"></i></a></li> <li class="topbar-skype"><a class=" " href="#"><i class="fab fa-skype" aria-hidden="true"></i></a></li> <li class="topbar-tumblr"><a class=" " href="#"><i class="fab fa-tumblr" aria-hidden="true"></i></a></li> <li class="topbar-twitter"><a class=" " href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>		
+              </ul>
+          </div><!--.social-list-wrapper-->
+      </div><!--.canvas-menu-content-->
+    </div><!--.canvas-menu-inner -->
+    <div class="canvas-menu-overlay"></div>
+  </div><!--.off-canvas-menu-->
+  <div class="top-bar secondary-bg hide-md">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-5">
+                <div class="top-content">
+                    <span><i class="fas fa-clock"></i>Open Hours: Mon - Sat - 9:00 - 18:00</span>
+                </div>
+            </div><!--.col-grid-->
+            <div class="col-lg-7 text-end">
+                <div class="top-content d-flex justify-content-end ">
+                    <div class="top-cnt-info">
+                        <a href="#"><i class="fa-solid fa-location-dot"></i>Los Angles, California, USA</a>
+                        <a href="#"><i class="fas fa-envelope"></i>contact@yoursite.com</a>
+                    </div><!--.top-content-->
+                    <ul class="top-slist ms-4">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </div><!--.top-content-->
+            </div><!--.col-grid-->
+        </div><!--.row-->
+    </div><!--.container-->
+  </div><!--.top-bar-->
+  <div class="main-nav">
+      <nav class="navbar navbar-expand-lg nav-bg">
+        <div class="container-fluid">
+            <div class="logo-wrapper">
+                <a href="#"><img src="assets/images/logo.png" class="logo" alt=""></a>
+            </div><!--.logo-wrapper-->
+          <div class="collapse navbar-collapse justify-content-center hide-md" id="navbarToggler">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle " href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Services
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="services.html">All Services</a></li>
+                    <li><a class="dropdown-item" href="service-details.html">Service Details</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Pages
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="portfolio.html">Portfolio</a></li>
+                    <li><a class="dropdown-item" href="pricing.html">Pricing</a></li>
+                    <li><a class="dropdown-item" href="faq.html">FAQ's</a></li>
+                    <li><a class="dropdown-item" href="sign-in.html">Sign In</a></li>
+                    <li><a class="dropdown-item" href="sign-up.html">Sign Up</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="blog-grid.html">Blog Grid</a></li>
+                  <li><a class="dropdown-item" href="blog-grid-sidebar.html">Blog Grid Sidebar</a></li>
+                  <li><a class="dropdown-item active" href="blog-details.html">Blog Details</a></li>
+              </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul> 
+          </div><!--.navbar-collapse-->
+          <div class="number-wrapper">
+            <span class="icon zoming-animate"><i class="fa-solid fa-phone"></i></span>
+            <span class="n-text"><label for="number">Call Us Now</label> +1 (888) 143-4267</span>
+          </div>
+          <span class="search-icon-wrapper ms-auto"><a href="#" class="search-toggle"><i class="fa-solid fa-magnifying-glass"></i></a></span>
+          <span class="canvas-menu-icon" ><a href="#" id="slidein-menu-toggle" class="canvas-menu-toggle top"> <i class="fas fa-bars"></i></a></span>
+        </div><!--.container-->
+      </nav><!--.navbar-->
+  </div><!--.main-nav-->
+</header>
+<div class="search-block">
+<div class="search-inner wow fadeInUp" data-wow-delay=".2s">
+    <form action="#">
+      <input type="text" name="search" id="search" class="search_input" autocomplete="off" placeholder="Search ..." />
+      <button class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </form>
+</div><!--.search-inner-->
+<div class="overlayer"></div>
+</div><!--.search-block-->
+<!--=================== Inner Page Banner =====================-->
+<section class="inner-banner overlay bg-inner-banner">
+    <div class="container h-100">
+        <div class="row align-items-center justify-content-center h-100 wow fadeInUp" data-wow-delay=".1s">
+            <div class="col-xl-8 text-center">
+                <div class="inner-baner-text">
+                    <h1>Blog Details</h1>
+                    <nav aria-label="breadcrumb">
+                      <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#"><span class="icon"><i class="fa-solid fa-house"></i></span>Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Blog-Details</li>
+                      </ol>
+                    </nav>
+                </div><!--.hero-text-->
+            </div><!--.col-grid-->
+        </div><!--.row-->
+    </div>
+</section>
+<!--=================== Page Content =====================-->
+<section class="page-content-wrapper sec-ptb">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="blog-summery wow fadeInUp" data-wow-delay=".1s">
+                    <div class="blog-inner">
+                        <figure class="img-wrapper">
+                            <img src=".//assets/images/blog-1.jpg" class="img-fluid" alt="">
+                        </figure>
+                        <div class="blog-content">
+                            <ul class="post-meta mb-3">
+                                <li class="author"><i class="fa-solid fa-user"></i>John Doe</li>
+                                <li class="meta-date"><i class="fas fa-clock"></i>Jun 12, 2022</li>
+                                <li class="comment"><i class="fa-solid fa-comment"></i>0 Comments</li>
+                            </ul>
+                            <h4 class="blog-title">Why picking a good company name is a tricky business</h4>
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                            </p>
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                            </p>
+                            <blockquote class="blockquote mt-5 mb-5">
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                                <cite>– Riana Pfefferkorn</cite>
+                            </blockquote>
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                            </p>
+                            <h4>Below are the original Latin passages</h4>
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                            </p>
+                            <ul class="list-style-one">
+                                <li>100% responsive</li>
+                                <li>99% client satisfaction</li>
+                                <li>Best business theme 2018</li>
+                                <li>Duty or the obligations of business</li>
+                            </ul>
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                            </p>
+                        </div><!--.blog-content-->
+                        <div class="share-wrapper d-flex justify-content-between">
+                            <span class="share-label">Share Post On:</span>
+                            <ul class="social-list style-two">
+                                <li><a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </div><!--.blog-inner-->
+                </div><!--.blog-summery-->
+                <div class="comments-area wow fadeInUp mt-5" data-wow-delay=".2s">
+                    <div class="heading mb-5">
+                        <h3>Comments</h3>
+                    </div>
+                    <div class="comment-box">
+                        <div class="author-thumb">
+                            <img src=".//assets/images/team-2.jpg" alt="" class="rounded-circle w-100 w-md-85">
+                        </div>
+                        <div class="comment-info">
+                            <h6><a href="#">John Doe</a></h6>
+                            <p class="display-30">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci molestias, itaque, ut officiis atque enim dolores totam reprehenderit quaerat omnis possimus culpa officia</p>
+                            <div class="reply">
+                                <a href="#">
+                                    <i class="fa fa-reply" aria-hidden="true"></i> Reply
+                                </a>
+                            </div>
+                        </div>
+                    </div><!-- .comment-box -->
+                    <div class="comment-box reply-box">
+                        <div class="author-thumb">
+                            <img src=".//assets/images/team-3.jpg" alt="" class="rounded-circle w-100 w-md-85">
+                        </div>
+                        <div class="comment-info">
+                            <h6><a href="#">Jama Karleny</a></h6>
+                            <p class="display-30">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci molestias, itaque, ut officiis atque enim dolores totam reprehenderit quaerat omnis possimus culpa officia</p>
+                            <div class="reply">
+                                <a href="#">
+                                    <i class="fa fa-reply" aria-hidden="true"></i> Reply
+                                </a>
+                            </div>
+                        </div>
+                    </div><!-- .comment-box -->
+                    <div class="comment-box">
+                        <div class="author-thumb">
+                            <img src=".//assets/images/team-4.jpg" alt="" class="rounded-circle w-100 w-md-85">
+                        </div>
+                        <div class="comment-info">
+                            <h6><a href="#">Nancy Bayers</a></h6>
+                            <p class="display-30">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci molestias, itaque, ut officiis atque enim dolores totam reprehenderit quaerat omnis possimus culpa officia</p>
+                            <div class="reply">
+                                <a href="#">
+                                    <i class="fa fa-reply" aria-hidden="true"></i> Reply
+                                </a>
+                            </div>
+                        </div>
+                    </div><!-- .comment-box -->
+                </div><!--.comment-area-->
+                <div class="comments-form wow fadeInUp mt-5 pt-3" data-wow-delay=".2s">
+                    <div class="heading">
+                        <h3>Post a Comment</h3>
+                    </div>
+                    <div class="comment-form-input mt-4">
+                        <form>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group mt-3">
+                                        <input name="name" id="name" type="text" class="form-control" placeholder="Name" required="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group mt-3">
+                                        <input name="email" id="email" type="email" class="form-control" placeholder="Email" required="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-group mt-3">
+                                        <textarea name="comments" id="comments" rows="6" class="form-control" placeholder="Comments." required=""></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 mt-4">
+                                    <input type="submit" class="primary-btn" value="Submit">
+                                </div>
+                            </div>
+                        </form>
+                    </div><!--.comment-form-input-->
+                </div><!-- .comments-form -->
+            </div><!--.col-grid-->
+            <div class="col-lg-4">
+                <aside class="sidebar wow fadeInUp" data-wow-delay=".1s">
+                    <div class="side-widget mb-4">
+                        <form action="#">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search...">
+                                <div class="input-group-append">
+                                <button class="search-btn" type="submit">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div><!--.side-widget-->
+                    <div class="side-widget mb-4">
+                        <div class="heading">
+                            <h2>Recent Post</h2>
+                        </div><!--.heading-->
+                        <div class="post-wrapper">
+                            <a href="#" class="small-post-style">
+                                <div class="img-wrapper">
+                                    <figure><img src=".//assets/images/blog-1.jpg" alt=""></figure>
+                                </div>
+                                <div class="post-content">
+                                    <h4>The Importance of Anchor Text in Back-links</h4>
+                                    <ul class="dcs-list">
+                                        <li>Sep 27, 2020</li>
+                                    </ul>
+                                </div>
+                            </a><!--.small-post-style-->
+                            <a href="#" class="small-post-style">
+                                <div class="img-wrapper">
+                                    <figure><img src=".//assets/images/gl-1.png" alt=""></figure>
+                                </div>
+                                <div class="post-content">
+                                    <h4>Incorporation of Company Branding and SEO</h4>
+                                    <ul class="dcs-list">
+                                        <li>Sep 27, 2020</li>
+                                    </ul>
+                                </div>
+                            </a><!--.small-post-style-->
+                            <a href="#" class="small-post-style">
+                                <div class="img-wrapper">
+                                    <figure><img src=".//assets/images/blog-1.jpg" alt=""></figure>
+                                </div>
+                                <div class="post-content">
+                                    <h4>5 Tips to Increase Your Online Sales</h4>
+                                    <ul class="dcs-list">
+                                        <li>Sep 27, 2020</li>
+                                    </ul>
+                                </div>
+                            </a><!--.small-post-style-->
+                            <a href="#" class="small-post-style">
+                                <div class="img-wrapper">
+                                    <figure><img src=".//assets/images/gl-3.png" alt=""></figure>
+                                </div>
+                                <div class="post-content">
+                                    <h4>The Importance of Anchor Text in Back-links</h4>
+                                    <ul class="dcs-list">
+                                        <li>Sep 27, 2020</li>
+                                    </ul>
+                                </div>
+                            </a><!--.small-post-style-->
+                            <a href="#" class="small-post-style">
+                                <div class="img-wrapper">
+                                    <figure><img src=".//assets/images/gl-4.png" alt=""></figure>
+                                </div>
+                                <div class="post-content">
+                                    <h4>Incorporation of Company Branding and SEO</h4>
+                                    <ul class="dcs-list">
+                                        <li>Sep 27, 2020</li>
+                                    </ul>
+                                </div>
+                            </a><!--.small-post-style-->
+                        </div><!--.post-wrapper-->
+                    </div><!--.side-widget-->
+                    <div class="side-widget mb-4">
+                        <div class="heading">
+                            <h2>Follow Us</h2>
+                        </div><!--.heading-->
+                        <ul class="social-list style-two">
+                            <li><a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                        </ul>
+                    </div><!--.side-widget-->
+                    <div class="side-widget mb-4">
+                        <div class="heading">
+                            <h2>Categories</h2>
+                        </div><!-- .heading -->
+                        <ul class="side-cat-list">
+                            <li>
+                                <a href="#">Business<span class="cat-counter">23</span></a>
+                            </li>
+                            <li>
+                                <a href="#">Health<span class="cat-counter">5</span></a>
+                            </li>
+                            <li>
+                                <a href="#">Sports<span class="cat-counter">44</span></a>
+                            </li>
+                            <li>
+                                <a href="#">Marketing<span class="cat-counter">32</span></a>
+                            </li>
+                            <li>
+                                <a href="#">Job<span class="cat-counter">16</span></a>
+                            </li>
+                            <li>
+                                <a href="#">Finance<span class="cat-counter">19</span></a>
+                            </li>
+                        </ul>
+                    </div><!--.side-widget-->
+                    <div class="side-widget mb-4">
+                        <div class="heading">
+                            <h2>Tags</h2>
+                        </div><!-- .heading -->
+                        <div class="tagcloud">
+                            <a href="#" class="tag-cloud-link">business</span></a> 
+                            <a href="#" class="tag-cloud-link">Marketing</span></a>
+                            <a href="#" class="tag-cloud-link">professional</span></a> 
+                            <a href="#" class="tag-cloud-link">Online</span></a> 
+                            <a href="#" class="tag-cloud-link">SEO</span></a> 
+                            <a href="#" class="tag-cloud-link">Tech</span></a> 
+                            <a href="#" class="tag-cloud-link">skill sale</span></a> 
+                        </div>
+                    </div><!--.side-widget-->        
+                </aside><!--.sidebar-->
+            </div><!--.col-grid-->
+        </div><!--.row-->
+    </div><!--.container-->
+</section>
+<!--=================== Footer =====================-->
+<footer class="footer">
+    <div class="footer-top sec-ptb">
+        <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-10 mt-4 pe-lg-4 wow fadeInUp" data-wow-delay=".1s">
+                <img src=".//assets/images/white-logo.png" class="footer-logo mb-4" alt="">
+                <p>
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                </p>
+                <ul class="footer-menu">
+                <li>
+                <span class="primary-color"><i class="fa-solid fa-location-dot"></i></span>Los Angles, California, USA
+                </li>
+                <li>
+                <span class="primary-color"><i class="fa-solid fa-phone"></i></span>+1 (888) 143-4267
+                </li>
+                <li>
+                <span class="primary-color"><i class="fa-solid fa-envelope"></i></span>support@gumtheme.com
+                </li>
+            </ul>
+                
+            </div><!--.col-grid-->
+            <div class="col-lg-2 col-md-3 mt-4 ps-lg-4 wow fadeInUp" data-wow-delay=".1s">
+            <h5 class="text-white mb-4">Quick Links</h5>
+            <ul class="footer-menu">
+                <li>
+                    <a href="about.html">About Us</a>
+                </li>
+                <li>
+                    <a href="services.html">Services</a>
+                </li>
+                <li>
+                    <a href="pricing.html">Pricing</a>
+                </li>
+                <li class="active">
+                    <a href="blog-grid.html">Blog</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+            </div><!--.col-grid-->
+            <div class="col-lg-2 col-md-4 mt-4 wow fadeInUp" data-wow-delay=".1s">
+            <h5 class="text-white mb-4">Opening Hours</h5>
+            <ul class="footer-menu">
+                <li>Mon - Tue: 11.00 - 17.00</li>
+                <li>Wed - Thur: 10.00 - 17.00</li>
+                <li>Fri - Sat: 11.00 - 14.00</li>
+                <li>Saturday: 10.00 - 12.00</li>
+                <li>Sunday: Closed</li>
+            </ul>
+            </div><!--.col-grid-->
+            <div class="col-lg-4 col-md-5 mt-4 ps-lg-5 wow fadeInUp" data-wow-delay=".1s">
+                <h5 class="text-white mb-4">Subscribe Now</h5>
+                <div class="form-wrapper mt-4">
+                <form class="d-flex">
+                    <input class="form-control" type="search" placeholder="Enter Your Email" aria-label="Search">
+                    <button class="btn" type="submit"><i class="fa-solid fa-paper-plane"></i></button>
+                </form>
+                </div>
+                <div class="footer-social mt-5">
+                <ul class="social-list style-two">
+                    <li><a href="#"> <i class="fab fa-facebook-f" aria-hidden="true"></i> </a></li>
+                    <li><a href="#"> <i class="fab fa-twitter" aria-hidden="true"></i> </a></li>
+                    <li><a href="#"> <i class="fab fa-linkedin-in" aria-hidden="true"></i> </a></li>
+                    <li><a href="#"> <i class="fab fa-youtube" aria-hidden="true"></i> </a></li>
+                </ul>
+            </div><!--.footer-social-->
+            </div><!--.col-grid-->
+        </div><!--.row-->
+        </div><!--.container-->
+    </div><!--.footer-top-->
+    <div class="copyright-wrapper wow fadeInUp">
+        <div class="container">
+        <div class="row">
+            <div class="col-12">
+            <div class="copyright-text">
+                <p>
+                © Copyright gumthemes 2022. All Rights Reserved
+                </p>
+                <ul class="footer-menu">
+                <li>
+                    <a href="#">Terms & Conditions</a>
+                </li>
+                <li>
+                    <a href="#">Privacy Policy</a>
+                </li>
+                </ul>
+            </div><!--.copyright-text-->
+            </div><!--.col-grid-->
+        </div><!--.row-->
+        </div><!--.container-->
+    </div><!--.copyright-wrapper-->
+</footer>
+<!--Scroll Up button-->
+<a id="scroll-up-btn"></a>
+<script src=".//assets/vendor/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.min.js"></script>
+<script src="https://unpkg.com/isotope-layout@3.0.4/dist/isotope.pkgd.min.js"></script>
+<script src=".//assets/vendor/bootstrap/js/bootstrap.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src=".//assets/vendor/videoplayer/video.min.js"></script>
+<script type="text/javascript" src=".//assets/vendor/slick/jquery-migrate.js"></script>
+<script type="text/javascript" src=".//assets/vendor/slick/slick.min.js"></script>
+<script type="text/javascript" src=".//assets/vendor/slick/slick-animation.js"></script>
+<script type="text/javascript" src=".//assets/vendor/animate/wow.js"></script>
+<script src=".//js/custom.js"></script>
+</body>
+</html>

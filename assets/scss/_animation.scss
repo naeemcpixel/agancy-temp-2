@@ -1,0 +1,38 @@
+ /* /////////// IMAGE ZOOM /////////// */
+ @-webkit-keyframes zoomInImage {
+	from{transform:scale(1.0,1.0);transform-origin:50% 50%;}
+	to{transform:scale(1.8,1.9);transform-origin:50% 0%;}
+  }
+  @keyframes zoomInImage {
+	from{transform:scale(1.0,1.0);transform-origin:50% 50%;}
+	to{transform:scale(1.8,1.9);transform-origin:50% 0%;}
+  }
+
+  .zoomInImage {
+	-webkit-animation: zoomInImage 15s linear infinite;
+			animation: zoomInImage 15s linear infinite;		
+  }
+  @-webkit-keyframes zoomOutImage {
+	from {
+	  -webkit-transform: scale3d(1.1, 1.1, 1.1);
+			  transform: scale3d(1.1, 1.1, 1.1);
+	}
+	to {
+	  -webkit-transform: scale3d(1, 1, 1);
+			  transform: scale3d(1, 1, 1);
+	}
+  }
+  @keyframes zoomOutImage {
+	from {
+	  -webkit-transform: scale3d(1.1, 1.1, 1.1);
+			  transform: scale3d(1.1, 1.1, 1.1);
+	}
+	to {
+	  -webkit-transform: scale3d(1, 1, 1);
+			  transform: scale3d(1, 1, 1);
+	}
+  }
+  .zoomOutImage {
+	-webkit-animation-name: zoomOutImage;
+			animation-name: zoomOutImage;
+  }
